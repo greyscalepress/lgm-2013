@@ -1,0 +1,41 @@
+Maps
+
+Credits:
+
+Designed with Scribus 1.4.2
+Build ID: C-C-T-F-C1.12.8-Mac/Aqua
+Using Ghostscript version 9.02 
+
+Fonts used in this book:
+
+Chivo 
+Made by Hector Gatti (design) & Igino Marin (spacing and kerning)
+Copyright (c) 2010, Omnibus-Type (www.omnibus-type.com) & Igino Marini (www.ikern.com)
+Licensed under the SIL Open Font License, Version 1.1
+
+Vokhov
+Made by Ivan Petrov (design) &  Alexei Vanyashin (design and mastering)
+Copyright (c) 2011, Cyreal (www.cyreal.org)
+Licensed under the SIL Open Font License, Version 1.1
+
+Maps: 
+Copyright (c) OpenStreetMap and contributors
+OpenStreetMap data licenced under the Open Data Commons Open Database License (ODbL)
+OpenStreetMap cartography licenced under the Creative Commons Attribution-ShareAlike 2.0 license (CC-BY-SA)
+
+Except where otherwise stated, all the content CC-BY-SA Libre Graphics Meeting
+
+Greyscale Press
+
+ISBN 978-2-9700706-6-5
+
+
+****
+
+ISBN-10: 2970070669
+ISBN-13: 978-2970070665
+
+ISBN-10: 2970070669
+ISBN-13: 978-2-9700706-6-5
+
+****

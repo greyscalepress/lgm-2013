@@ -1,0 +1,11 @@
+TextWrangler regex search sample:
+
+Search: <h2 class="title">([^>]*)</h2>
+
+Replace: <h1 class="title">\1</h1> (aside- if it's a h1 do you still want to preserve the 'class="title"'?)
+
+Note the brackets in the search regex, which save what's inside them.
+
+Then you use \1 to pull them back out in the replace text (\1 for the first set of brackets, \2 for the second, ... )
+
+http://stackoverflow.com/questions/9107217/simple-textwrangler-grep-replace

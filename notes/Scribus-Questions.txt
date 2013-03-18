@@ -1,0 +1,11 @@
+Scribus Questions:
+
+is it possible to get STYLED TEXT from one scribus document into another?... Copy paste does not seem to work. Export is only TXT...
+
+***
+
+What's the point of the "Done" button in the styles editor?
+
+***
+
+Selecting a word (by double click) and typing should allow to keep the same style, not reset to default style.

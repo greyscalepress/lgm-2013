@@ -1,0 +1,160 @@
+
+Document size:
+
+Width: 4.2500 in
+Height: 6.8750 in
+
+For full spread images (incl bleed):
+width: 8.75 inch
+height: 7.125 inch
+
+For the cover:
+Spine width
+White paper: multiply page count by 0.002252
+172p : Spine =  0.387344
+Bleed: .125" bleed
+For books with 130 pages or less, we strongly recommend a blank spine. Blank spines are required for books with less than 101 pages.
+Width of cover: 
+8.5 = 8.8873
+with bleed + spine: 9.137344
+
+4.25+ 0.387344 = 4.6373 - 0.0625 = 4.5748
+
+Allow for 0.0625" variance on either side of the fold lines for your cover. For example, if your spine width is 1", your text should be no wider than 0.875". Because of this variance, avoid hard edges or lines that end on the fold line.
+
+Margin choice for the FIELDNOTES booklet:
+
+Inner: 0.8
+Outside: 0.5
+Top and Bottom: 0.7
+
+STYLES:
+- Body Text: Volkhov, 9pt
+- Small Notes: Volkhov, 8pt
+- Default Paragraph Style: Karla
+- Header1 : Karla, 21pt
+- Index: Karla
+
+Imported styles:
+- HTML_default
+- HTML_h1
+- HTML_h4
+- HTML_p
+
+The pieces that we have:
+Time: 
+Title: Karla Bold, 10pt, HTML_default
+Person: 
+Hyperlink: Color: Blue, Font: Karla Italic
+Description: Font: Karla Italic
+
+
+Create a style for 
+Program-Time:
+<ITEXT CH="18:30"/>
+<para PARENT="HTML_default"/>
+
+Search:
+<ITEXT CH="([^>]*)"/>
+            <para PARENT="HTML_default"/>
+Replace:
+<ITEXT CH="\1"/>
+            <para PARENT="Program_Time"/>
+
+
+Program-Title:
+<ITEXT FONT="Karla Bold" CH="..."/>
+<para PARENT="HTML_default"/>
+Karla Bold + HTML_default => Program Title, Karla 15pt
+
+Search:
+<ITEXT FONT="Karla Bold" CH="([^>]*)"/>
+            <para PARENT="HTML_default"/>
+Replace:
+<ITEXT CH="\1"/>
+            <para PARENT="Program_Title"/>          
+            
+
+Hyperlink: 
+<ITEXT FONT="Karla Italic" FEATURES="inherit underline" FCOLOR="Blue" CH="kune.ourproject.org"/>
+Karla Italic + Underline + Blue 
+
+Search:
+<ITEXT FONT="Karla Italic" FEATURES="inherit underline" FCOLOR="Blue" CH="([^>]*)"/>
+            <para PARENT="Default Paragraph Style"/>
+Replace:
+<ITEXT CH="\1"/>
+            <para PARENT="Program_URL"/>
+
+Hpyerlink-Nr: 
+<ITEXT FONT="Karla Italic" FCOLOR="Blue" CH=" [6]"/>
+<para PARENT="Default Paragraph Style"/>
+
+kill them with regex in TextWrangler:
+search: <ITEXT FONT="Karla Italic" FCOLOR="Blue" CH=" \[[^>]*\]"/>
+replace: VOID
+
+Program-Paragraph:
+<ITEXT FONT="Karla Italic" CH=" ...
+<para PARENT="Default Paragraph Style"/>
+
+Search:
+<ITEXT FONT="Karla Italic" CH="([^>]*)"/>
+            <para PARENT="HTML_default"/>
+Replace:
+<ITEXT CH="\1"/>
+            <para PARENT="Body Text"/>
+            
+Search:
+<ITEXT FONT="Karla Italic" CH="([^>]*)"/>
+            <para PARENT="Default Paragraph Style"/>
+Replace:
+<ITEXT CH="\1"/>
+            <para PARENT="Body Text"/>           
+
+finally, replace the Pstyle that follows the Program_Title:
+
+<para PARENT="Program_Title"/>
+            <ITEXT CH="([^>]*)"/>
+            <para PARENT="Body Text"/>
+Replace:
+<para PARENT="Program_Title"/>
+            <ITEXT CH="\1"/>
+            <para PARENT="Program_Person"/>
+****
+Add a Page Break before each talk:
+search: 
+<ITEXT CH="([^>]*)"/>
+            <para PARENT="Program_Time"/>
+replace:
+<breakframe/>
+            <ITEXT CH="\1"/>
+            <para PARENT="Program_Time"/>
+            
+****
+Weirdness with amazon previewer...
+
+Solution: in Scribus, set interior bleed to 0.
+WORKS!
+
+
+***
+ 
+SECTIONS:
+thu 11: starts p.24
+ends: p.62
+
+friday 12: starts: p.63
+ends: p.123
+
+saturday 13 starts: p. 124
+
+Still todo:
+- add IRC channel
+- #lgm on irc.freenode.net
+
+
+ 
+From 10-13 April 2013, Medialab-Prado hosts the international Libre Graphics Meeting in Madrid, Spain. The event brings together developers and designers from all over the world to work on the many different tools in the Free, Libre and Open Source toolbox.
+This little book is an inofficial companion to the event: it includes the full program of the four days of conferences and workshops, as well as useful maps, and space for your personal notes and travel information. It's a one-time pad, your personal notebook for the duration of LGM. Customise it, take notes, make drawings. See you at LGM :)
+
