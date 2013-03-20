@@ -2419,7 +2419,7 @@
             <ITEXT FONT="Chivo Regular" FONTSIZE="8" CH="Licensed under the SIL Open Font License, Version 1.1"/>
             <para LINESPMode="1"/>
             <para LINESPMode="1"/>
-            <ITEXT FONT="Volkhov Bold" FONTSIZE="8" CH="Vokhov"/>
+            <ITEXT FONT="Volkhov Bold" FONTSIZE="8" CH="Volkhov"/>
             <ITEXT FONT="Volkhov Regular" FONTSIZE="8" CH=" (Regular, "/>
             <ITEXT FONT="Volkhov Italic" FONTSIZE="8" CH="Italic, "/>
             <ITEXT FONT="Volkhov Bold" FONTSIZE="8" CH="Bold"/>
@@ -2432,6 +2432,22 @@
             <ITEXT FONT="Volkhov Regular" FONTSIZE="8" CH="Copyright (c) 2011, Cyreal (www.cyreal.org)"/>
             <para LINESPMode="1"/>
             <ITEXT FONT="Volkhov Regular" FONTSIZE="8" CH="Licensed under the SIL Open Font License, Version 1.1"/>
+            <para LINESPMode="1"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Karla Bold" FONTSIZE="8" CH="Karla"/>
+            <ITEXT FONT="Karla Regular" FONTSIZE="8" CH=" (Regular, "/>
+            <ITEXT FONT="Karla Italic" FONTSIZE="8" CH="Italic"/>
+            <ITEXT FONT="Karla Regular" FONTSIZE="8" CH=", "/>
+            <ITEXT FONT="Karla Bold" FONTSIZE="8" CH="Bold"/>
+            <ITEXT FONT="Karla Regular" FONTSIZE="8" CH=", "/>
+            <ITEXT FONT="Karla BoldItalic" FONTSIZE="8" CH="Bold Italic"/>
+            <ITEXT FONT="Karla Regular" FONTSIZE="8" CH=")"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Karla Regular" FONTSIZE="8" CH="Made by Jonathan Pinhorn"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Karla Regular" FONTSIZE="8" CH="Copyright (c) 2011-2012, Jonathan Pinhorn"/>
+            <para LINESPMode="1"/>
+            <ITEXT FONT="Karla Regular" FONTSIZE="8" CH="Licensed under the SIL Open Font License, Version 1.1"/>
             <para LINESPMode="1"/>
             <para LINESPMode="1"/>
             <ITEXT FONT="Chivo Regular" FONTSIZE="10" CH="Maps"/>
@@ -2450,7 +2466,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="152" PTYPE="5" XPOS="583.9900824" YPOS="40899.0448" WIDTH="120.4298777" HEIGHT="1" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="180" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="0" POCOOR="" NUMCO="0" COCOOR="" NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="152" PTYPE="5" XPOS="583.9900824" YPOS="40947.6448" WIDTH="120.4298777" HEIGHT="1" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="Black" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="180" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="0" POCOOR="" NUMCO="0" COCOOR="" NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
