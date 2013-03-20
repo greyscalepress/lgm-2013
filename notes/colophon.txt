@@ -13,7 +13,7 @@ Made by Hector Gatti (design) & Igino Marin (spacing and kerning)
 Copyright (c) 2010, Omnibus-Type (www.omnibus-type.com) & Igino Marini (www.ikern.com)
 Licensed under the SIL Open Font License, Version 1.1
 
-Vokhov
+Volkhov
 Made by Ivan Petrov (design) &  Alexei Vanyashin (design and mastering)
 Copyright (c) 2011, Cyreal (www.cyreal.org)
 Licensed under the SIL Open Font License, Version 1.1
