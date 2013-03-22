@@ -42,6 +42,7 @@
             <Fonts Name="Chivo Regular"/>
             <Subset Name="Volkhov Italic"/>
             <Subset Name="Volkhov Regular"/>
+            <Subset Name="Chivo Italic"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
@@ -291,20 +292,21 @@
             <para PARENT="Index"/>
             <ITEXT FONT="Chivo Regular" CH="Day 2: Thursday"/>
             <tab FONT="Chivo Regular"/>
-            <ITEXT CH="42"/>
+            <ITEXT CH="39"/>
             <para PARENT="Index"/>
             <ITEXT FONT="Chivo Regular" CH="Day 3: Friday"/>
             <tab FONT="Chivo Regular"/>
-            <ITEXT CH="81"/>
+            <ITEXT CH="78"/>
             <para PARENT="Index"/>
-            <ITEXT FONT="Chivo Regular" CH="Day 4; Saturday"/>
+            <ITEXT FONT="Chivo Regular" CH="Day 4: Saturday"/>
             <tab FONT="Chivo Regular"/>
-            <ITEXT CH="142"/>
+            <ITEXT CH="139"/>
             <para PARENT="Index"/>
             <para PARENT="Index"/>
             <ITEXT FONT="Chivo Regular" CH="Notes"/>
             <tab FONT="Chivo Regular"/>
-            <ITEXT FONT="Chivo Regular" CH="166"/>
+            <ITEXT FONT="Chivo Regular" CH="16"/>
+            <ITEXT CH="4"/>
             <para PARENT="Index"/>
             <ITEXT FONT="Chivo Regular" CH="Colophon"/>
             <tab FONT="Chivo Regular"/>
