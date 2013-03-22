@@ -1,0 +1,29 @@
+If 
+
+Program_Person is followed by Body Text
+
+we need to replace that Body Text with :
+Body Text FirstParagraph (top margin: 8pt)
+
+Then, for Program_URL, we can set the bottom margin to zero.
+
+****
+Step 1: 
+replace Program_Person with Program_Person_Margin everywhere.
+
+Step 2: 
+IF followed by Program_URL, replace back to Program_Person
+
+Rules:
+
+Search: 
+<para PARENT="Program_Person_Margin"/>
+            <ITEXT CH="([^>]*)"/>
+            <para PARENT="Program_URL"/>
+
+Replace:
+<para PARENT="Program_Person"/>
+            <ITEXT CH="\1"/>
+            <para PARENT="Program_URL"/>
+
+****
